@@ -1,19 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio_v2/static/css/main.22b8cab3.css",
-    "main.js": "/portfolio_v2/static/js/main.950b5592.js",
+    "main.css": "/portfolio_v2/static/css/main.34cd4746.css",
+    "main.js": "/portfolio_v2/static/js/main.b4aa1fbc.js",
     "static/media/Evt.png": "/portfolio_v2/static/media/Evt.ba60490b56980cbab2d3.png",
     "static/media/20220213_141135.jpg": "/portfolio_v2/static/media/20220213_141135.f06b2da75d910688171b.jpg",
+    "static/media/vbpicture.png": "/portfolio_v2/static/media/vbpicture.02ce5683681f3bf23439.png",
     "static/media/evt-ref.png": "/portfolio_v2/static/media/evt-ref.7919aa6891251e77d847.png",
+    "static/media/vbreceptgen.PNG": "/portfolio_v2/static/media/vbreceptgen.09b07b5fa3f345cb98fc.PNG",
+    "static/media/vbtimeline.PNG": "/portfolio_v2/static/media/vbtimeline.76cb2702cae796743a76.PNG",
     "static/media/old.png": "/portfolio_v2/static/media/old.062275c2b74bd64001a5.png",
+    "static/media/forestfragmentation.PNG": "/portfolio_v2/static/media/forestfragmentation.156e8eb527001f25faf6.PNG",
     "static/media/triangle.png": "/portfolio_v2/static/media/triangle.a6f09b51fd897a54bcbb.png",
+    "static/media/biomassAnalyser.PNG": "/portfolio_v2/static/media/biomassAnalyser.c49e0b8ada53b4d98c12.PNG",
     "static/media/LeagueSpartan-Bold.otf": "/portfolio_v2/static/media/LeagueSpartan-Bold.caadcad8af387d419251.otf",
     "index.html": "/portfolio_v2/index.html",
-    "main.22b8cab3.css.map": "/portfolio_v2/static/css/main.22b8cab3.css.map",
-    "main.950b5592.js.map": "/portfolio_v2/static/js/main.950b5592.js.map"
+    "main.34cd4746.css.map": "/portfolio_v2/static/css/main.34cd4746.css.map",
+    "main.b4aa1fbc.js.map": "/portfolio_v2/static/js/main.b4aa1fbc.js.map"
   },
   "entrypoints": [
-    "static/css/main.22b8cab3.css",
-    "static/js/main.950b5592.js"
+    "static/css/main.34cd4746.css",
+    "static/js/main.b4aa1fbc.js"
   ]
 }
