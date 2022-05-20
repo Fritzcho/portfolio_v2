@@ -1,4 +1,5 @@
 .gear {
+  margin-top: 50px;
 	-webkit-animation: rotate-center 5s linear infinite both;
 	        animation: rotate-center 5s linear infinite both;
 }

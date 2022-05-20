@@ -16,6 +16,31 @@ $(document).ready(function(){
   });
 });
 
+let disableScroll = false;
+
+export default function expand(id) {
+  //Set default open/close settings
+      $('.logo').css('color', 'black !important');
+      $('#'+id).toggleClass('active');
+      $('#'+id+'.p').toggleClass('display');
+      $('html, body').animate({
+        scrollTop: $('#'+id).offset().top-70
+      }, 500);
+      var TopScroll = $('#'+id).offset().top-70;
+      var LeftScroll = window.pageXOffset;
+
+      // if scroll happens, set it to the previous value
+      if (disableScroll === false) {
+        window.onscroll = function() {
+          window.scrollTo(LeftScroll, TopScroll);
+        };
+        disableScroll = true;
+      } else {
+        window.onscroll = function() {};
+        disableScroll = false;
+      }
+}
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
