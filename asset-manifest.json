@@ -1,24 +1,32 @@
 {
   "files": {
-    "main.css": "/portfolio_v2/static/css/main.8ec307d9.css",
-    "main.js": "/portfolio_v2/static/js/main.b4aa1fbc.js",
+    "main.css": "/portfolio_v2/static/css/main.6b000d38.css",
+    "main.js": "/portfolio_v2/static/js/main.b804feff.js",
     "static/media/Evt.png": "/portfolio_v2/static/media/Evt.ba60490b56980cbab2d3.png",
-    "static/media/20220213_141135.jpg": "/portfolio_v2/static/media/20220213_141135.f06b2da75d910688171b.jpg",
     "static/media/vbpicture.png": "/portfolio_v2/static/media/vbpicture.02ce5683681f3bf23439.png",
+    "static/media/me.jpg": "/portfolio_v2/static/media/me.d8d456e11bcd52dc97b3.jpg",
     "static/media/evt-ref.png": "/portfolio_v2/static/media/evt-ref.7919aa6891251e77d847.png",
     "static/media/vbreceptgen.PNG": "/portfolio_v2/static/media/vbreceptgen.09b07b5fa3f345cb98fc.PNG",
     "static/media/vbtimeline.PNG": "/portfolio_v2/static/media/vbtimeline.76cb2702cae796743a76.PNG",
+    "static/media/smap.png": "/portfolio_v2/static/media/smap.34d950176f0bb54ab54d.png",
+    "static/media/desktop.PNG": "/portfolio_v2/static/media/desktop.37b782f3ac6cbc13a341.PNG",
+    "static/media/smap3.png": "/portfolio_v2/static/media/smap3.92b4c285669482a18e07.png",
+    "static/media/img2.jpg": "/portfolio_v2/static/media/img2.8a531899b8611f83bded.jpg",
+    "static/media/Montserrat-Bold.ttf": "/portfolio_v2/static/media/Montserrat-Bold.fec34f95476cdce768eb.ttf",
+    "static/media/cover.jpg": "/portfolio_v2/static/media/cover.2e366f04b7e2c80adffb.jpg",
+    "static/media/logo.jpg": "/portfolio_v2/static/media/logo.6ffcf57836685c1f26d8.jpg",
+    "static/media/smap2.jpeg": "/portfolio_v2/static/media/smap2.aeb0b89513a5b0cb20b8.jpeg",
     "static/media/old.png": "/portfolio_v2/static/media/old.062275c2b74bd64001a5.png",
+    "static/media/smap3.jpeg": "/portfolio_v2/static/media/smap3.df2f003437dddaee3e6e.jpeg",
     "static/media/forestfragmentation.PNG": "/portfolio_v2/static/media/forestfragmentation.156e8eb527001f25faf6.PNG",
-    "static/media/triangle.png": "/portfolio_v2/static/media/triangle.a6f09b51fd897a54bcbb.png",
-    "static/media/biomassAnalyser.PNG": "/portfolio_v2/static/media/biomassAnalyser.c49e0b8ada53b4d98c12.PNG",
     "static/media/LeagueSpartan-Bold.otf": "/portfolio_v2/static/media/LeagueSpartan-Bold.caadcad8af387d419251.otf",
     "index.html": "/portfolio_v2/index.html",
-    "main.8ec307d9.css.map": "/portfolio_v2/static/css/main.8ec307d9.css.map",
-    "main.b4aa1fbc.js.map": "/portfolio_v2/static/js/main.b4aa1fbc.js.map"
+    "static/media/Arrow.svg": "/portfolio_v2/static/media/Arrow.46467d12749de701992d48f902a4a4e6.svg",
+    "main.6b000d38.css.map": "/portfolio_v2/static/css/main.6b000d38.css.map",
+    "main.b804feff.js.map": "/portfolio_v2/static/js/main.b804feff.js.map"
   },
   "entrypoints": [
-    "static/css/main.8ec307d9.css",
-    "static/js/main.b4aa1fbc.js"
+    "static/css/main.6b000d38.css",
+    "static/js/main.b804feff.js"
   ]
 }
