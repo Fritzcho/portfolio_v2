@@ -1,4 +1,7 @@
 import React, {useEffect, useState} from 'react'
+import './hero.css'
+import { Icon } from '@iconify/react';
+
 
 export const Hero = () => {
     const [h1Border, setH1Border] = useState('solid');
@@ -10,18 +13,20 @@ export const Hero = () => {
         }, 2000);
         setTimeout(() => {
             setH2Opacity(1)
-        }, 2500);
+        }, 1500);
     });
 
     return (
-        <div className="hero">
-          <div className="hero text">
-              <h1 id="hero-h1" style={{borderRight: h1Border}}>Hi there, I'm Alireza</h1>
-              <h2 id="hero-h2" style={{opacity: h2Opacity}}>I'm a UX designer and developer</h2>
-          </div>
-          <div className="hero image">
-              <img src={require("../../assets/ppic/20220213_141135.jpg")} alt=" "/>
-          </div>
+        <div className='hero__outer'>
+            <div className="hero">
+              <div className="hero text">
+                  <h1 id="hero-h1" style={{borderRight: h1Border}}>Hi there, I'm Alireza</h1>
+                  <h2 id="hero-h2" style={{opacity: h2Opacity, transition: "1s"}}>Come see my portfolio . . .</h2>
+              </div>
+            </div>
+            <div className='hero__arrow-container'>
+                <a className='hero__arrow' href="#menu"><Icon width={"75"} icon="ic:baseline-arrow-back-ios-new" rotate={3} /></a>
+            </div>
         </div>
     )
 }

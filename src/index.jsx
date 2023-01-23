@@ -2,48 +2,29 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import $ from 'jquery';
+import { Header, Footer, Subheader } from './components';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Smap from './containers/projects/development/Smap';
+import Kuben from './containers/projects/development/Kuben';
+import AIM from './containers/projects/designs/AIM';
+import UMUBook from './containers/projects/development/UMUBook';
+import Boujt from './containers/projects/designs/Boujt';
+import ScrollToTop from './ScrollToTop';
 
-$(document).ready(function(){       
-  var scroll_pos = 0;
-  $(document).scroll(function() { 
-    scroll_pos = $(this).scrollTop();
-      if(scroll_pos > $(".project-items").offset().top) {
-        $(".logo").css('color', 'white');
-      } else {
-        $(".logo").css('color', 'black');
-      }
-  });
-});
 
-let disableScroll = false;
-
-export default function expand(id) {
-  //Set default open/close settings
-      $('.logo').css('color', 'black !important');
-      $('#'+id).toggleClass('active');
-      $('#'+id+'.p').toggleClass('display');
-      $('html, body').animate({
-        scrollTop: $('#'+id).offset().top-70
-      }, 500);
-      var TopScroll = $('#'+id).offset().top-70;
-      var LeftScroll = window.pageXOffset;
-
-      // if scroll happens, set it to the previous value
-      if (disableScroll === false) {
-        window.onscroll = function() {
-          window.scrollTo(LeftScroll, TopScroll);
-        };
-        disableScroll = true;
-      } else {
-        window.onscroll = function() {};
-        disableScroll = false;
-      }
-}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <BrowserRouter>
+        <ScrollToTop/>
+        <Routes>
+            <Route path="/portfolio_v2" element={<App />} />
+            <Route path="/portfolio_v2/kuben" element={<Kuben />} />
+            <Route path="/portfolio_v2/smap" element={<Smap />} />
+            <Route path="/portfolio_v2/aim" element={<AIM />} />
+            <Route path="/portfolio_v2/umubook" element={<UMUBook />} />
+            <Route path="/portfolio_v2/boujt" element={<Boujt />} />
+        </Routes>
+        <Footer/>
+    </BrowserRouter>
 );

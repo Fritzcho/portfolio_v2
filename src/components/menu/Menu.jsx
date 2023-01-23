@@ -6,11 +6,15 @@ var styling = {
   selected: {
     textShadow: "0px 0px 30px rgba(255, 255, 255, 0.45), 0 0 60px rgba(255, 255, 255, 0.25)",
     color: "transparent",
-    WebkitTextStroke:"1px #f69000", 
-    TextStroke:"1px #f69000",
+    WebkitTextStroke:"1px #87CEEB", 
+    TextStroke:"1px #87CEEB",
+    fontSize: "40px"
   },
   button: { 
-    color: "#53b1b1"
+    color: "transparent",
+    WebkitTextStroke:"1px #FFFFFF", 
+    TextStroke:"1px #FFFFFF",
+    fontSize:"24px"
   }
 }
 
@@ -37,27 +41,27 @@ function Menu() {
   }
 
   return (
-    <div className='portfolio__menu-container'>
-      <div className='portfolio__menu'>
-        <div className='portfolio__MenuItem' 
-        style={dev ? styling.selected : styling.button} 
-        onClick={() => selectItem('u')}>
-            <p>Development</p>
+    <div className='portfolio__menu-container' id="menu">
+        <div className='portfolio__menu'>
+            <div className='portfolio__MenuItem' 
+            style={about ? styling.selected : styling.button} 
+            onClick={() => selectItem('a')}>
+                <p>About Me</p>
+            </div>
+            <div className='portfolio__MenuItem' 
+            style={dev ? styling.selected : styling.button} 
+            onClick={() => selectItem('u')}>
+                <p>Full applications</p>
+            </div>
+            <div className='portfolio__MenuItem' 
+            style={design ? styling.selected : styling.button} 
+            onClick={() => selectItem('d')}>
+              <p>Designs</p>
+            </div>
         </div>
-        <div className='portfolio__MenuItem' 
-        style={about ? styling.selected : styling.button} 
-        onClick={() => selectItem('a')}>
-            <p>About Me</p>
-        </div>
-        <div className='portfolio__MenuItem' 
-      style={design ? styling.selected : styling.button} 
-      onClick={() => selectItem('d')}>
-          <p>Design</p>
-        </div>
-      </div>
-      {design ? <Designs/> : ''}
-      {dev ? <Developments/> : ''}
-      {about ? <About /> : ''}
+        {design ? <Designs/> : ''}
+        {dev ? <Developments/> : ''}
+        {about ? <About /> : ''}
     </div>
   )
 }

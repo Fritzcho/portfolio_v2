@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 
 function Header() {
-  const [color, setColor] = useState('black');
+  const [color, setColor] = useState('white');
 
   function scrollTop() {
     window.scrollTo({top: 0, behavior: "smooth"});

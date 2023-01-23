@@ -1,0 +1,185 @@
+/*---------------------Hero---------------------*/
+.hero {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white !important;
+  }
+  
+  .hero__outer {
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    animation:bg-change 10s infinite;
+  }
+
+  .hero.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 55vh;
+    align-items: baseline;
+    animation:tc-change 10s infinite;
+  }
+  
+  .hero.text h1 {
+    animation: 
+    typing 2s steps(30, end),
+    blink-caret .75s step-end infinite
+    /* tc-change 10s infinite*/;
+    white-space: nowrap;
+    border-right: .15em solid white;
+
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 3rem;
+    animation:c-change 10s infinite;
+    text-shadow:
+    -2px -2px 0 #fff,
+     0   -2px 0 #fff,
+     2px -2px 0 #fff,
+     2px  0   0 #fff,
+     2px  2px 0 #fff,
+     0    2px 0 #fff,
+    -2px  2px 0 #fff,
+    -2px  0   0 #fff;
+  }
+  
+  .hero.text h2 {
+    /*animation: 
+    typing 2s steps(30, end),
+    blink-caret .75s step-end infinite
+    animation-delay: 2.3s;
+    border-right: .15em solid white;*/
+    white-space: nowrap;
+    
+    font-weight: 600; 
+    position: relative;
+    top: -30px;
+
+    
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 2rem;
+    animation:c-change 10s infinite;
+    text-shadow:
+    -2px -2px 0 #fff,
+     0   -2px 0 #fff,
+     2px -2px 0 #fff,
+     2px  0   0 #fff,
+     2px  2px 0 #fff,
+     0    2px 0 #fff,
+    -2px  2px 0 #fff,
+    -2px  0   0 #fff;
+  }
+  
+  .hero.image img {
+    max-height: 300px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.164);
+  }
+
+  .hero__arrow-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 50px;
+  }
+
+  .hero__arrow {
+    -webkit-animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+    animation-delay: 4.3s;
+    color: white;
+  }
+
+
+  
+  @media only screen and (max-width: 800px) {
+    .hero {
+      flex-direction: column;
+    }
+    .hero.image {
+      flex-direction: row;
+    }
+  
+    .hero.image img {
+      height: 100%;
+      max-width: 70vw;
+      object-fit: cover;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.164);
+    }
+  
+    .hero.text h1 {
+      font-size: 2rem;
+    }
+    .hero.text h2 {
+      font-size: 1rem;
+    }
+  }
+
+
+
+
+@keyframes bg-change {
+    0%,100% {
+        background-color: #87CEEB;
+    }
+  50% {
+    background-color: #059033;
+  }
+}
+
+@keyframes c-change {
+    0%,100% {
+        color: #87CEEB;
+    }
+  50% {
+    color: #059033;
+  }
+}
+
+
+@keyframes tc-change {
+  0%,100% {
+    color: #1F1F1F;
+    }
+  50% {
+    color: white;
+  }
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
+}
+
+
+
+@-webkit-keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  

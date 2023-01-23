@@ -1,42 +1,58 @@
-.portfolio__menu {
+.portfolio__menu-container {
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 100px;
+    min-height: 100vh;
+    background: #1f1f1f;
+}
 
-    padding: 50px 0px;
+.portfolio__menu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    width: 30%;
+
+    align-self: flex-start;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 10rem;
+}
+
+.portfolio__menu p {
+    white-space: nowrap;
 }
 
 .portfolio__MenuItem {
+    justify-content: center;
     cursor: pointer;
-    text-align: center;
-    flex-basis: 100%;
-    max-width: 200px;
 
     font-family: 'League Spartan', sans-serif;
-    font-size: 30px;
     font-weight: 900;
 
-    /* background-color: white;
-    color: #1f1f1f;
-    border: 5px solid white;
-    box-sizing: border-box;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.288); */
     background-color: transparent;
-    padding: 0px 10px;
     border-radius: 1px;
-    margin-bottom: 50px;
+
+    margin-bottom: -20px;
+
+    transition: 1s;
 }
 
 @media only screen and (max-width: 800px) {
-    .portfolio__menu {
+    .portfolio__menu-container {
         flex-direction: column;
-        align-items: center;
-        gap: 10px;
-        font-size: 20px;
-        flex-basis: initial;
     }
-    .portfolio__MenuItem {
-        width: 80%;
+
+    .portfolio__menu {
+        position: initial;
     }
+
+    .portfolio__menu p {
+        font-size: 2rem;
+        white-space:break-spaces;
+    }
+    
 }
