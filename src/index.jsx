@@ -10,6 +10,7 @@ import AIM from './containers/projects/designs/AIM';
 import UMUBook from './containers/projects/development/UMUBook';
 import Boujt from './containers/projects/designs/Boujt';
 import ScrollToTop from './ScrollToTop';
+import Pallang from './containers/projects/development/Pallang';
 
 
 
@@ -24,6 +25,7 @@ root.render(
             <Route path="/portfolio_v2/aim" element={<AIM />} />
             <Route path="/portfolio_v2/umubook" element={<UMUBook />} />
             <Route path="/portfolio_v2/boujt" element={<Boujt />} />
+            '<Route path="/portfolio_v2/pallang" element={<Pallang />} />
         </Routes>
         <Footer/>
     </BrowserRouter>

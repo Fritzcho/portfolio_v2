@@ -16,7 +16,7 @@ function Kuben() {
                 and brand material. I designed and developed a website for him in ReactJS, and together with a graphic designer 
                 brought forth a logotype, menu and other necessary branding material. 
             </p>
-            <a className='project__button' href='https://fritzcho.github.io/kubenumea/'>VISIT THE WEBSITE</a>
+            <a className='project__button' href='https://kubenumea.se/'>VISIT THE WEBSITE</a>
         </div>
 
         <div className='portfolio__project-content'>

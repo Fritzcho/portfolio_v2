@@ -3,9 +3,9 @@ import './projects.css'
 import Object from './Object'
 
 const Developments = () => {
-    var s = "Evt.png"
     return (
       <div className='portfolio__dev'>
+          <Object path={"pallang/adaptive-icon.jpg"} title={"Pallang"} link="/portfolio_v2/pallang"/>
           <Object path={"kuben/logo.jpg"} title={"Kuben Umeå"} link="/portfolio_v2/kuben"/>
           <Object path={"smap/smap3.jpeg"} title={"SMap"} link="/portfolio_v2/smap"/>
           <Object path={"UMUbook/umubook.png"} title={"UMUBook"} link="/portfolio_v2/umubook"/>

@@ -17,9 +17,8 @@ function AIM() {
                     AI Medical is a medtech company dedicated to developing AI powered diagnostic solutions that enables easier, 
                     faster and more reliable diagnoses, mainly for skincancers.
 
-                    The link below is not final but on a pre-publishing server, therefore it takes some time to load. 
                 </p>
-                <a className='project__button' href='https://aimedical-website.onrender.com/'>VISIT THE WEBSITE</a>
+                <a className='project__button' href='https://www.aimedtech.com/'>VISIT THE WEBSITE</a>
             </div>
     
             <div className='portfolio__project-content'>
