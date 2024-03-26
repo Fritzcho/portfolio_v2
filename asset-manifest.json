@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio_v2/static/css/main.1cbe1f88.css",
-    "main.js": "/portfolio_v2/static/js/main.25f591a6.js",
+    "main.js": "/portfolio_v2/static/js/main.3cc35812.js",
     "static/media/Evt.png": "/portfolio_v2/static/media/Evt.ba60490b56980cbab2d3.png",
     "static/media/aim-cover.png": "/portfolio_v2/static/media/aim-cover.8c419118457c4122a798.png",
     "static/media/aim-img3.png": "/portfolio_v2/static/media/aim-img3.4488155b7bef30b1abdd.png",
@@ -10,6 +10,8 @@
     "static/media/evt-ref.png": "/portfolio_v2/static/media/evt-ref.7919aa6891251e77d847.png",
     "static/media/vbreceptgen.PNG": "/portfolio_v2/static/media/vbreceptgen.09b07b5fa3f345cb98fc.PNG",
     "static/media/vbtimeline.PNG": "/portfolio_v2/static/media/vbtimeline.76cb2702cae796743a76.PNG",
+    "static/media/background2.jpg": "/portfolio_v2/static/media/background2.4667bfe3f4eb8af5887a.jpg",
+    "static/media/background.jpg": "/portfolio_v2/static/media/background.3f740f00a628a629363a.jpg",
     "static/media/smap.png": "/portfolio_v2/static/media/smap.34d950176f0bb54ab54d.png",
     "static/media/desktop.PNG": "/portfolio_v2/static/media/desktop.37b782f3ac6cbc13a341.PNG",
     "static/media/smap3.png": "/portfolio_v2/static/media/smap3.92b4c285669482a18e07.png",
@@ -29,19 +31,20 @@
     "static/media/feed.png": "/portfolio_v2/static/media/feed.04386ea1177cb0cd2b92.png",
     "static/media/feed2.png": "/portfolio_v2/static/media/feed2.c3954acb0ce9a4d0c24d.png",
     "static/media/smap3.jpeg": "/portfolio_v2/static/media/smap3.df2f003437dddaee3e6e.jpeg",
+    "static/media/adaptive-icon.jpg": "/portfolio_v2/static/media/adaptive-icon.1aab582bb2551c053e89.jpg",
     "static/media/forestfragmentation.PNG": "/portfolio_v2/static/media/forestfragmentation.156e8eb527001f25faf6.PNG",
     "static/media/android.png": "/portfolio_v2/static/media/android.b6fd6621abeb211c45d1.png",
     "static/media/umubook.png": "/portfolio_v2/static/media/umubook.5b6796d8570bf3d3e12e.png",
-    "static/media/aim-logo.svg": "/portfolio_v2/static/media/aim-logo.e60892ef540e9a241728.svg",
+    "static/media/aim-logo.svg": "/portfolio_v2/static/media/aim-logo.7fbbf36bebce6b98871e.svg",
     "static/media/login.png": "/portfolio_v2/static/media/login.2e723ae39f88b3e08265.png",
     "static/media/LeagueSpartan-Bold.otf": "/portfolio_v2/static/media/LeagueSpartan-Bold.caadcad8af387d419251.otf",
     "index.html": "/portfolio_v2/index.html",
-    "static/media/Arrow.svg": "/portfolio_v2/static/media/Arrow.46467d12749de701992d.svg",
+    "static/media/Arrow.svg": "/portfolio_v2/static/media/Arrow.6e3cf97cf81df408930c.svg",
     "main.1cbe1f88.css.map": "/portfolio_v2/static/css/main.1cbe1f88.css.map",
-    "main.25f591a6.js.map": "/portfolio_v2/static/js/main.25f591a6.js.map"
+    "main.3cc35812.js.map": "/portfolio_v2/static/js/main.3cc35812.js.map"
   },
   "entrypoints": [
     "static/css/main.1cbe1f88.css",
-    "static/js/main.25f591a6.js"
+    "static/js/main.3cc35812.js"
   ]
 }
